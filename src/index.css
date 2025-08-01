@@ -1,0 +1,45 @@
+/* --- Google Font Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* --- Base Body Styles --- */
+body {
+  font-family: 'Inter', sans-serif; /* Default font for UI */
+  background-color: #FFFDF5; /* Fallback color */
+  background-image: radial-gradient(circle at top, #ffffff 0%, #FFFDF5 80%);
+  min-height: 100vh;
+}
+
+/* --- Custom Font Utility --- */
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+/* --- Animation Keyframes & Class --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-card {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes typing-dot-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.typing-dot {
+  animation: typing-dot-pulse 1.5s infinite ease-in-out;
+}
