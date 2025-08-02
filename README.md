@@ -1,16 +1,26 @@
-<<<<<<< HEAD
-# Ashtavakra-Wisdom-Frontend
-=======
-# React + Vite
+# 🕉️ Wisdom of Ashtavakra — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Wisdom of Ashtavakra web app — a spiritual application built to help seekers deeply engage with the timeless teachings of the Ashtavakra Gita.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧘 Verse-by-verse browser with Sanskrit, transliteration, translation, and commentary
+- 🤖 Gemini-powered chatbot for Advaita queries
+- 🔐 JWT-based user authentication (login/register)
+- 🔁 Persistent chat history with infinite scroll & pagination
+- 📬 Newsletter subscription UI
+- 🔎 Browse verses by spiritual tags (e.g., detachment, awareness)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 2caa8e9 (Ashtavakra-Wisdom-frontend)
+- React with Tailwind CSS
+- React Router
+- Axios for API calls
+- Lucide icons
+- Mobile-first responsive design
+
+## 🚀 Setup
+
+```bash
+npm install
+npm run dev
